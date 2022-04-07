@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(40, 71, 75);
+    font-family: helvetica;
+}
+
+.text-1 {
+  margin-top:5%;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(177, 241, 252);
+  
+
+}
+
+.text-2 {
+  margin-bottom: 95px;
+  margin-top:3%;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+
+}
+
+#center-everything {
+  width: 100%;
+  text-align: center;
+  
+}
+
+#img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 100%;
+}
+
+#img1 {
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+#img2 {
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+#generate-div {
+  width: 100%;
+  text-align: center;
+}
+#generateText {
+  margin: 40px;
+  color: rgb(255, 255, 255);
+  position: static;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.correct { 
+  box-shadow: 0px 0px 30px 10px rgb(88, 216, 88);
+
+}
+.wrong {
+  box-shadow: 0px 0px 30px 10px rgb(255, 35, 35);
+  
+}
+
+#bar {
+  color: white;
+  font-size: 25px;
+
+}
+
+#wrongText {
+  display:inline;
+  color: rgb(255, 58, 58);
+  font-size: 25px;
+
+}
+
+#correctText {
+  display:inline;
+  color:rgb(88, 216, 88);
+  font-size: 25px;
+
+}
+
+#percentageText {
+  display: inline;
+  font-size: 25px;
+  margin-top: 100px;
+
+}
+
+#results {
+  color: rgb(177, 241, 252);
+  margin: auto;
+  margin-top: 50px;
+  font-size: 25px;
+  line-height: 30px;
+}
